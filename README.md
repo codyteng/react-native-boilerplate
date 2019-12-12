@@ -23,7 +23,9 @@
 5. To run on iOS device / simulator.
     ```
     yarn clean:ios
-    yarn ios
+    yarn ios (Simulator)
+    yarn ios:deploy (Device)
+    yarn ios:deploy "<your-device-ame>" (Specific device - When you have more than one device connected)
     ```
     
 Well done!
@@ -32,4 +34,7 @@ Well done!
 CodeDee
 
 Contributor
+```
+stevechan3310
 leesiongchan
+```

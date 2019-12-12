@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "ios:iPhoneXs": "react-native run-ios --simulator=\"iPhone Xs\"",
+    "ios:deploy": "react-native run-ios --device",
     "clean:android": "cd android && ./gradlew clean && cd ..",
     "clean:ios": "cd ios && pod cache clean --all && pod install && cd ..",
     "clean:all": "watchman watch-del-all && rm -rf /tmp/metro-* && rm -rf node_modules &&  yarn && cd android && ./gradlew clean && cd .. && cd ios && pod cache clean --all && pod install && cd ..",
